@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c6aec36dfa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/ajay.png" height="40" width="180" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <pre style="font-size: 30px; font-family:Verdana, Geneva, Tahoma, sans-serif;">Software Developer and
+                 Web Developer</pre>
+            <h1>Hi, I'm <span>Ajay</span> <br>from Khammam</h1>
+        </div>    
+    </div>
+</div>
+<!----------------------------about---------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                  <img src="images/aj3.jpg" alt="">
+            </div>
+           <div class="about-col-2">
+           <h1 class="sub-title">About Me</h1>
+           <p>Hello...
+            I am Ajay from Khammam. I am a fresh graduate,B.Tech 4th year in Artificial Intelligence and Machine Learning from Vijaya Engineering College Khammam with aggregated CGPA 7.96 . I am well versed in Python,Java,C,HTML,CSS,JS,TS,Angular,ReactJS,NextJS,Node JS.
+            I did my Live project on Android app(Vijaya Educational App),My team created a Android app for our college and I have basic knowledge on Web Development and Front-End Development. This app completely based on education platform.
+            And my second project on Securing data with Blockchain and AI. My first Internship on Navodita info tech in Web Development. I am fast learner, team player,time management,leadership and as well as goal oriented. My ambition is to become a software engineer and web developer in reputed company.
+            That's all about me.
+            Thank you....</p>
+           <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+             <ul>
+                <li><span></span><br># Beginner
+                    for web designing</li>
+                <li><span></span><br># Web Development
+                    Designing - Web interface</li>
+                <li><span></span><br># App Developer
+                    Building - Android Apps</li>
+                    <pre># Known Programming Languages :PYTHON,JAVA,C,SQL,MYSQL
+                                                        HTML, CSS ,BOOTSTRAP, JAVASCRIPT ,TYPESCRIPT
+                                                        ANGULAR, REACT JS, NEXT JS, NODE JS , API'S
+                                                        </pre>
+             </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2024(April-current)</span><br>
+                        # Currently trained in Web development in MessageSuite(GreenAds Global)-Hyderabad</li>
+                     <li><span>2024(March-April)</span>
+                        <br># Web development Internship at Navodita Info Tech.</li>
+                    <li><span></span><br># Experience
+                        in frontend web development</li>
+                   <li><span></span><br># Computer Science
+                    in AIML
+                    Experience
+                    in frontend web development</li>
+                    <li># Experience in Full Stack development </li>
+                    
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2020-2024</span><br>B.Tech - Vijaya Engineering College from Khammam with aggregated 7.96 CGPA.</li>
+                    <li><span>2018-2020</span><br>Intermediate - Sahithi Junior College from Khammam with aggregated 9.4 CGPA.</li>
+                    <li><span>2008-2018</span><br>Schooling - SSC-ZPH School Peda Venkatagiri with aggregated 7.8 CGPA.</li>
+                    
+                    
+                </ul>
+
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------services----------------------------->
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="Services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Designing</h2>
+                <p>I have basic knowledge on how to create web pages. for that purpose I learn HTML , CSS , JAVA SCRIPT languages which required for Web Designing. By using these languages and taking Visual Studio as the platoform I can give my maximum efforts for web designing for making intresting for the users</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Front-End Web Development</h2>
+                
+                <p>As a new to front end developer, start by mastering HTML, CSS, and JavaScript. These core languages form the foundation of front end development. Learn to create structured content with HTML, style it with CSS, and add interactivity with JavaScriptny. By using this I get experience in Front-End Development</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-apple"></i>
+                <h2>Android App Designing</h2>
+                <p>During my B.Tech in the part of project I created Android App for our college. For this we use Android Studio as a platform for creating. This app helps to make and build connection between the faculty and students in the college. Which makes easy for the teachers to communicate with the students by using technology</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------portfolio--------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/android app.jpg" >
+                <div class="layer">
+                    <h3>Android App</h3>
+                    <p>This App is developed for college purpose only. This will make it easy to communicate and interact with the students by facult..</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/aj3.jpg" >
+                <div class="layer">
+                    <h3>Desiner</h3>
+                    <p>I design a portfolio web site which is completely related to me. Which shows all my experience,works and information related to me..</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" >
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>I created a online movies web site. This website helps to download the movies from the online..</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-------------------------------contact---------------------------------->
+<div id="Contact">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-sharp fa-solid fa-paper-plane"></i> ajaykalakoti34@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> 7337522120</p>
+            <div class="social-icons">
+                <a href="https:facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/ajay-kalakota-b8051227a"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/Ajay kalakota.docx" download class="btn btn2" >Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your email" required>
+                <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn" class="btn2" style="color: black;">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+
+    </div>
+    <div class="copyright"> 
+        <p>Copyright@ Ajay. Made <i class="fa-solid fa-heart"></i></p>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+     
+     function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+     }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0"
+    }
+    function closemenu(){
+        sidemenu.style.right="-200"
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz1WW1zyGsrE37n-vW6GqtxmZp6mAPaAYLOP05xzNyDxoHRYNVPVObjkz4OOm-oM4v1/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+            msg.innerHTML=""
+            },5000)
+            form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
